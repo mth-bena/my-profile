@@ -1,0 +1,147 @@
+/* Colors and fonts*/
+
+body{background-color: #ecdfc8;
+    color: black;
+    font-family: 'helvetica', sans-serif;
+    font-size: 10px
+    font-weight: lighter;}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.shadowed {
+    box-shadow: 5px 5px 3px rgb(230,230,230);
+}
+    
+
+h1 {color:#b7472a;
+    font-size: 40px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: lighter;
+    }
+ 
+h2{color: #df7861;
+    size: 15px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif}
+
+p{color: black;
+    size : 10px;
+    font-family: 'Times', serif;
+    font-weight: lighter;
+    }
+
+a{text-decoration: none;
+    font-style: italic;
+    }
+
+a:hover {text-decoration: underline}
+
+
+
+.text-justify{text-align: justify;
+text-align: center}
+
+.buton{background-color: #024771;
+        border-radius: 50px;
+        color:#ffffff ;
+        height: 200px;
+        width: 100px;
+        padding: 10px 20px;}
+
+.buton:hover{color: black}
+
+.puple-but{background-color:  #ff1ed5;
+        border-radius: 50px;
+        color: spurple ;
+        height: 200px;
+        width: 100px;
+        padding: 10px 20px;}
+
+
+/*constum design with class (99 of your design) */
+
+
+.container {
+    width: 1340px;}
+
+@media (max-width: 1200px){
+    .container {
+        width: 1100px;
+    }}
+
+@media (max-width: 1100px){
+    .container {
+        width: 1000px;
+    }}
+
+@media (max-width: 1000px){
+    .container {
+        width: 900px;
+    }}
+
+@media (max-width: 900px){
+    .container {
+        width: 800px;
+    }}
+
+@media (max-width: 800px){
+    .container {
+        width: 700px;
+    }}
+
+@media (max-width: 700px){
+    .container {
+        width: 600px;
+    }}
+
+@media (max-width: 600px){
+    .container {
+        width: 500px;
+    }}
+
+@media (max-width: 500px){
+    .container {
+        width: 400px;
+    }}
+
+@media (max-width: 400px){
+    .container {
+        width: 300px;
+    }}
+
+@media (max-width: 300px){
+    .container {
+        width: 200px;
+    }}
+
+@media (max-width: 200px){
+    .container {
+        width: 100px;
+    }}
+
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    margin: 35px 40px ;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 4px ;
+    text-align: center }
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px
+}
+
+.list-inline li{
+    list-style: none;
+    padding: 0px;
+    display: inline;
+    font-size: 30px
+}
+
+.list-inline a :hover{font-size: 40px}
+
+
